@@ -1,0 +1,42 @@
+.title {
+  text-align: center;
+  text-shadow: var(--text-shadow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: var(--box-shadow);
+  padding: 9px;
+}
+@media (max-width: 768px) {
+  .title {
+    flex-direction: column;
+  }
+}
+.title h1 {
+  font-size: 34px;
+  word-break: break-word;
+}
+.title span {
+  font-size: 20px;
+  margin: 0 5px;
+}
+.description {
+  font-size: 23px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.img-style {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+.description-txt {
+  border-bottom: 1px solid var(--body-color);
+  word-break: break-word;
+}
+.date-posted {
+  font-size: 19px;
+  font-family: "Great Vibes", cursive;
+  font-weight: var(--font-weight-date);
+}

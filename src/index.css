@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Instrument+Serif:ital@0;1&family=Roboto:wght@400;500;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap");
+* {
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+:root {
+  --body-background-color: #fff;
+  --body-color: #000;
+  --link-color: navy;
+  --drop-down-bgcolor: #282c34;
+  --dropdown-color: #000;
+  --label-color: #000;
+  --background-header-footer: #ffffff;
+  --globe-color: "#fff";
+  --font-weight-date: 700;
+  --count-color: rgb(232, 236, 226);
+  --theme: dark;
+  --text-shadow: 2px 2px 4px rgba(0, 0, 0, 2.2);
+  --box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+[data-theme="dark"] {
+  --body-background-color: #282c34;
+  --body-color: #fff;
+  --link-color: cyan;
+  --drop-down-bgcolor: #fff;
+  --dropdown-color: #fff;
+  --label-color: #fff;
+  --background-header-footer: #1c1c1e;
+  --globe-color: "#000";
+  --font-weight-date: 500;
+  --count-color: gray;
+  --theme: light;
+  --text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6);
+  --box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.2);
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--body-background-color);
+  color: var(--body-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.label-color {
+  color: var(--label-color);
+}

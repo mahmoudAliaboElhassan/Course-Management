@@ -1,0 +1,23 @@
+.custom-select {
+  width: 45%;
+  color: black;
+  margin-top: 5px;
+}
+.image {
+  width: 45%;
+}
+@media (max-width: 768px) {
+  .image-select-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .custom-select,
+  .image {
+    width: 100%;
+  }
+}

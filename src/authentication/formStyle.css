@@ -1,0 +1,44 @@
+.form-style {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 80%;
+  border: 1px solid #d6c4c4;
+  padding: 14px 23px;
+  border-radius: 10px;
+  background: var(--body-background-color);
+  -webkit-box-shadow: 0 0 3px 0px #735c5c;
+  box-shadow: 0 0 3px 0px #735c5c;
+}
+@media (max-width: 768px) {
+  .form-style {
+    width: 70%;
+  }
+}
+
+.form-container {
+  position: relative;
+  height: calc(100vh - 71.8px);
+}
+@media (orientation: landscape) and (max-width: 767px) {
+  .form-container {
+    height: calc(100vh - 40px);
+    margin-bottom: 3rem;
+  }
+}
+@media (max-height: 400px) {
+  .form-style-auth {
+    margin-top: 3rem;
+  }
+}
+.password-toggle-btn {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
+  position: relative;
+  top: 4px;
+}
